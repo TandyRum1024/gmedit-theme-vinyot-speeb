@@ -1,0 +1,5 @@
+{
+  	"parentTheme": "dark",
+	"stylesheets": ["vinyot_speeb.css"],
+	"darkChromeTabs": true
+}

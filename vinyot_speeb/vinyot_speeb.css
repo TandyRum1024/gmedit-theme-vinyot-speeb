@@ -1,0 +1,211 @@
+#main .ace-tm {color: #b58879;} /* && () . : != */
+#main .ace-tm .ace_local {color: #e2bc98;} /*local variables that have been initialized with var*/
+#main .ace-tm .ace_sublocal {color: #e2bc98;} /**/
+#main .ace-tm .ace_field {color: #c2bbe4;} /*variable owned by other*/
+#main .ace-tm .ace_localfield {color: #fff1c1;} /*variable owned by self*/ 
+#main .ace-tm .ace_globalfield {color: #c2bbe4;} /*variable that is global*/
+#main .ace-tm .ace_keyword {color: #fff1c1;} /*Switch Case Break Return If Else Until*/
+#main .ace-tm .ace_macro {color: #94eacd;} /*Macro used in code*/
+#main .ace-tm .ace_macroname {color: #94eacd;}  /*Macro Name in "All Configurations"*/
+#main .ace-tm .ace_preproc {color: #ffb056;} /*#define #event* #macro*/
+#main .ace-tm .ace_curly.ace_paren {color: #b58879;} /*Brackets {} */
+#main .ace-tm .ace_constant {color: #c2bbe4;} /*GM built-in values: c_black true false bm_subtract*/
+#main .ace-tm .ace_numeric {color: #ef6e3e;} /*Basic numbers*/
+#main .ace-tm .ace_string {color: #ef6e3e;} /*String text*/
+#main .ace-tm .ace_momenttime {color: #f5c475;} /*time lines*/
+#main .ace-tm .ace_comment {color: #6d9687;} /*Comments*/
+#main .ace-tm .ace_eventtext {color: #ff6148;} /*Renamed Object Actions*/
+#main .ace-tm .ace_extmacro {color: #fff9cf;} /**/
+#main .ace-tm .ace_enum {color: #ef6e3e;} /*Enum Variable*/
+#main .ace-tm .ace_enumfield {color: #94eacd;} /*Enum Constant*/
+#main .ace-tm .ace_variable {color: #c2bbe4;} /*built-in GM variable*/   
+#main .ace-tm .ace_globalvar {color: #c2bbe4;} /**/
+#main .ace-tm .ace_function {color: #ffb056;} /*Basic GM Function*/
+#main .ace-tm .ace_extfunction {color: #ffb056;} /**/
+#main .ace-tm .ace_asset.ace_script {color: #ffb056;} /*script()*/
+#main .ace-tm .ace_asset {color: #94eacd;} /*objects, sprites*/
+#main .ace-tm .ace_namespace {color: #adfce9;} /**/
+#main .ace-tm .ace_type {color: #adfce9;} /**/
+#main .ace-tm {background-color: #252427;} /*Main background*/
+#main .ace-tm .ace_active-line {background-color: #313142;} /*Current line's background*/
+#main .ace-tm .ace_selection {background-color: #404052;} /*Selection block background (hold-click and shift selection)*/
+#main .ace-tm .ace_gutter {color: #b58879;} /*Gutter number text*/
+#main .ace-tm .ace_gutter {background-color: #121213;} /*Gutter background*/
+#main .ace-tm .ace_gutter-active-line {background-color: #33334d;} /*Current line's gutter background*/
+#main .ace-tm .ace_error {color: #ff0000;}
+#main .ace_gutter-define {color: #fff1c1;} /*White # in gutter*/
+
+/*
+#main .ace-tm .ace_regionname,
+#main .ace-tm .ace_sectionname,
+#main .ace-tm .ace_momentname,
+#main .ace-tm .ace_scriptname,
+#main .ace-tm .ace_eventkeyname,
+#main .ace-tm .ace_eventname {
+	font-style: italic;
+	font-weight: bold;
+
+	color: #48200d;
+
+	background-color: #ffeec6;
+	border-bottom: 4px solid;
+	border-top: 0px solid;
+	border-right: 0px solid;
+	border-color: #524b47;
+}
+#main .ace-tm .ace_eventtext {
+	font-style: italic;
+	font-weight: bold;
+
+	color: #ffe5b0;
+
+	background-color: #457f96;
+	border-bottom: 4px solid;
+	border-top: 0px solid;
+	border-right: 0px solid;
+	border-color: #524b47;
+}
+#main .ace-tm .ace_line .ace_preproc.ace_define,
+#main .ace-tm .ace_line .ace_preproc.ace_region,
+#main .ace-tm .ace_event {
+	font-style: italic;
+	font-weight: bold;
+
+	color: #48200d;
+	background-color: #ef6e3e;
+	border-bottom: 4px solid;
+	border-top: 0px solid;
+	border-right: 0px solid;
+	border-color: #46351d;
+
+	overflow: visible;
+}
+
+#main .ace-tm .ace_line .ace_preproc.ace_section {
+	font-style: italic;
+	font-weight: bold;
+
+	color: #ffe5b0;
+	background-color: #6c6486;
+	border-bottom: 4px solid;
+	border-top: 0px solid;
+	border-right: 0px solid;
+	border-color: #46351d;
+}
+*/
+#main .ace-tm .ace_regionname,
+#main .ace-tm .ace_sectionname,
+#main .ace-tm .ace_momentname,
+#main .ace-tm .ace_scriptname,
+#main .ace-tm .ace_eventkeyname,
+#main .ace-tm .ace_eventname {
+	color: #758ba5;
+}
+#main .ace-tm .ace_eventtext {
+	color: #ff6148;
+}
+
+/* Custom tabs */
+#tree-td > div.chrome-tabs.project-name.chrome-tabs-dark-theme {
+	height: 36px;
+}
+
+#project-name {
+	padding: 0;
+	margin: 0;
+	height: 36px;
+	line-height: 36px;
+}
+
+.system-button {
+	padding: 0;
+	margin: 0;
+	height: 36px;
+	line-height: 36px;
+}
+
+#tabs {
+	height: 36px;
+    margin: 0;
+    padding: 0 0 0.45em 0;
+    background: #2c2a33;
+}
+
+#tabs > div.chrome-tabs-content > div.chrome-tab.chrome-tab {
+	height: 36px;
+	padding-bottom: 0.45em;
+}
+
+#tabs > div.chrome-tabs-content > div > div.chrome-tab-title {
+	padding: 0;
+	margin: 0;
+	height: calc(36px - 0.45em);
+	line-height: calc(36px - 0.45em);
+}
+
+#tabs > div.chrome-tabs-content > div > div.chrome-tab-close {
+	top: 25%;
+}
+
+.chrome-tabs .chrome-tab-close:hover {
+    background: #2c2a33;
+}
+
+.chrome-tabs .chrome-tab-close:hover::before,
+.chrome-tabs .chrome-tab-close:hover:active::before {
+  content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'><path stroke='#ef6e3e' stroke-linecap='round' stroke-width='1.8' d='M4 4 L10 10 M10 4 L4 10'></path></svg>");
+}
+
+#tabs > div.chrome-tabs-content > div.chrome-tab.chrome-tab > div.chrome-tab-background > svg {
+	display: none;
+}
+
+#tabs > div.chrome-tabs-content > div.chrome-tab.chrome-tab > div.chrome-tab-background:before {
+	content: '';
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 7px;
+	right: 7px;
+
+	overflow: hidden;
+	transform: skewX(10deg);
+	background-color: #2f2e2e;
+}
+
+#tabs > div.chrome-tabs-content > div.chrome-tab.chrome-tab > div.chrome-tab-background:after {
+	content: '';
+	position: absolute;
+	z-index: 100;
+	top: 0px;
+	bottom: 0px;
+	left: 5px;
+	right: 93%;
+
+	transform: skewX(10deg);
+	background-color: #262627;
+}
+
+#tabs > div.chrome-tabs-content > div.chrome-tab.chrome-tab:first-child > div.chrome-tab-background:after {
+	z-index: -1;
+	left: 0px;
+
+	transform: none;
+	background-color: #2f2e2e;
+}
+
+#tabs > div.chrome-tabs-content > div.chrome-tab.chrome-tab-current > div.chrome-tab-background > svg {
+	display: none;
+}
+
+#tabs > div.chrome-tabs-content > div.chrome-tab.chrome-tab-current > div.chrome-tab-background:before {
+	background-color: #ef6e3e;
+}
+
+#tabs > div.chrome-tabs-content > div.chrome-tab.chrome-tab-current:first-child > div.chrome-tab-background:after {
+	z-index: -1;
+	left: 0px;
+	
+	transform: none;
+	background-color: #ef6e3e;
+}
